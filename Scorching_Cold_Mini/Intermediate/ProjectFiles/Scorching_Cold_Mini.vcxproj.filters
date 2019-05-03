@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Scorching_Cold_Mini.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D771D92C-F063-4141-9156-5193B1B57219}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Scorching_Cold_Mini.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Scorching_Cold_MiniEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{5C0FEA19-FCE4-43A9-BDB6-44A228DF78DA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Scorching_Cold_Mini">
+			<UniqueIdentifier>{C6CB4B79-27CB-4B4E-A531-C61606517488}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_Mini.Build.cs">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_Mini.cpp">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_Mini.h">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_MiniCharacter.cpp">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_MiniCharacter.h">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_MiniGameMode.cpp">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_MiniGameMode.h">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_MiniHUD.cpp">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_MiniHUD.h">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_MiniProjectile.cpp">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_MiniProjectile.h">
+			<Filter>Source\Scorching_Cold_Mini</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
