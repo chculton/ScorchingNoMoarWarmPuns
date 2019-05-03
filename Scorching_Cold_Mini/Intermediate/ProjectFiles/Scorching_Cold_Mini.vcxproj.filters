@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Scorching_Cold_Mini.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{D771D92C-F063-4141-9156-5193B1B57219}</UniqueIdentifier>
+			<UniqueIdentifier>{0827DDDF-2E8B-4AD9-BC38-7BD0796F3A3D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Scorching_Cold_Mini.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{5C0FEA19-FCE4-43A9-BDB6-44A228DF78DA}</UniqueIdentifier>
+			<UniqueIdentifier>{FB54EB12-3DA6-4C57-BE6B-9F0ACC133B9F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Scorching_Cold_Mini">
-			<UniqueIdentifier>{C6CB4B79-27CB-4B4E-A531-C61606517488}</UniqueIdentifier>
+			<UniqueIdentifier>{9E6B1956-1257-4A69-9F5A-88C61E076C0F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Scorching_Cold_Mini\Scorching_Cold_Mini.Build.cs">
 			<Filter>Source\Scorching_Cold_Mini</Filter>
