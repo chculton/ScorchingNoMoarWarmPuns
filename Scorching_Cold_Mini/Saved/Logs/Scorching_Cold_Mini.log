@@ -1,4 +1,4 @@
-﻿Log file open, 05/08/19 16:35:29
+﻿Log file open, 05/15/19 09:21:37
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Scorching_Cold_Mini
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2051985611) SRandInit(2051985611).
+LogInit: Display: RandInit(1024473670) SRandInit(1024473670).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.257425
+LogStats: Stats thread started at 0.325102
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,7 +84,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.131s to configure plugins.
+LogStreaming: Display: Took  0.097s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Binaries/Win64/UE4Editor-Scorching_Cold_Mini.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
@@ -221,662 +221,321 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: D:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.006s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.05.08-04.35.31:110][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.08-04.35.31:110][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.05.08-04.35.31:120][  0]LogInit: Computer: 1816C004
-[2019.05.08-04.35.31:120][  0]LogInit: User: SunnyPee7365
-[2019.05.08-04.35.31:120][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.05.08-04.35.31:120][  0]LogInit: High frequency timer resolution =3.515624 MHz
-[2019.05.08-04.35.31:120][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.05.08-04.35.31:120][  0]LogMemory: Platform Memory Stats for Windows
-[2019.05.08-04.35.31:120][  0]LogMemory: Process Physical Memory: 277.68 MB used, 277.68 MB peak
-[2019.05.08-04.35.31:120][  0]LogMemory: Process Virtual Memory: 268.61 MB used, 268.61 MB peak
-[2019.05.08-04.35.31:120][  0]LogMemory: Physical Memory: 8491.10 MB used,  24156.11 MB free, 32647.21 MB total
-[2019.05.08-04.35.31:120][  0]LogMemory: Virtual Memory: 4837.86 MB used,  24156.11 MB free, 134217728.00 MB total
-[2019.05.08-04.35.31:136][  0]LogInit: Using OS detected language (en-US).
-[2019.05.08-04.35.31:136][  0]LogInit: Using OS detected locale (en-NZ).
-[2019.05.08-04.35.31:138][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.05.08-04.35.31:475][  0]LogStreaming: Display: Took  0.338s to EndInitTextLocalization.
-[2019.05.08-04.35.31:475][  0]LogInit: Setting process to per monitor DPI aware
-[2019.05.08-04.35.31:506][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.05.08-04.35.31:506][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.05.08-04.35.31:678][  0]LogD3D11RHI: D3D11 adapters:
-[2019.05.08-04.35.31:730][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.05.08-04.35.31:730][  0]LogD3D11RHI:       8079/0/16323 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.05.08-04.35.31:738][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.05.08-04.35.31:738][  0]LogD3D11RHI:       128/0/16323 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.05.08-04.35.31:740][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.05.08-04.35.31:740][  0]LogD3D11RHI:       0/0/16323 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.05.08-04.35.31:740][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.05.08-04.35.31:746][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.05.08-04.35.31:746][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.05.08-04.35.31:746][  0]LogWindows: EnumDisplayDevices:
-[2019.05.08-04.35.31:746][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.05.08-04.35.31:747][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.05.08-04.35.31:747][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.05.08-04.35.31:747][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.05.08-04.35.31:747][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.05.08-04.35.31:747][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.05.08-04.35.31:747][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.05.08-04.35.31:747][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
-[2019.05.08-04.35.31:747][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.05.08-04.35.31:747][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.05.08-04.35.31:747][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.05.08-04.35.31:747][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.05.08-04.35.31:747][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.05.08-04.35.31:783][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.05.08-04.35.31:783][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.05.08-04.35.31:783][  0]LogD3D11RHI: Async texture creation enabled
-[2019.05.08-04.35.31:799][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.05.08-04.35.31:886][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Intermediate/Shaders/WorkingDirectory/17800/).
-[2019.05.08-04.35.31:886][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/Sunny.Pee7365/AppData/Local/Temp/UnrealShaderWorkingDir/463839D94FA4EF76D534708CFB2D9059/'.
-[2019.05.08-04.35.32:057][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.05.08-04.35.32:067][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.05.08-04.35.32:077][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.05.08-04.35.32:087][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.05.08-04.35.32:098][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.05.08-04.35.32:107][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.05.08-04.35.32:117][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.05.08-04.35.32:128][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.05.08-04.35.32:132][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.05.08-04.35.32:142][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.05.08-04.35.32:151][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.05.08-04.35.32:160][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.05.08-04.35.32:169][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2019.05.08-04.35.32:179][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.05.08-04.35.32:188][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.05.08-04.35.32:207][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.05.08-04.35.32:207][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.05.08-04.35.32:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-04.35.32:218][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.05.08-04.35.32:252][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.05.08-04.35.32:261][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.05.08-04.35.32:271][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.05.08-04.35.32:281][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.05.08-04.35.32:290][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.05.08-04.35.32:301][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.05.08-04.35.32:301][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.05.08-04.35.32:370][  0]LogXGEController: Cleaning working directory: D:/Users/Sunny.Pee7365/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.05.08-04.35.32:371][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.05.08-04.35.32:371][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.05.08-04.35.32:371][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.05.08-04.35.32:886][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.05.08-04.35.32:941][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB D:/Users/Sunny.Pee7365/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.05.08-04.35.32:942][  0]LogDerivedDataCache: Display: Loaded Boot cache: D:/Users/Sunny.Pee7365/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2019.05.08-04.35.32:942][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.05.08-04.35.32:942][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.05.08-04.35.32:942][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.05.08-04.35.32:942][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.05.08-04.35.32:954][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.05.08-04.35.32:966][  0]LogDerivedDataCache: Using Local data cache path D:/Users/Sunny.Pee7365/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.05.08-04.35.32:966][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.05.08-04.35.32:966][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.05.08-04.35.32:974][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.05.08-04.35.32:975][  0]LogSlate: Using Freetype 2.6.0
-[2019.05.08-04.35.32:975][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.05.08-04.35.32:976][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.05.08-04.35.33:070][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2019.05.08-04.35.33:315][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.08-04.35.33:430][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.05.08-04.35.33:431][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.05.08-04.35.33:431][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.05.08-04.35.33:431][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.05.08-04.35.33:431][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.05.08-04.35.33:431][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.05.08-04.35.33:456][  0]LogNetVersion: Scorching_Cold_Mini , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 451170659)
-[2019.05.08-04.35.33:837][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.082001 seconds
-[2019.05.08-04.35.33:842][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2019.05.08-04.35.33:842][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2019.05.08-04.35.33:842][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.05.08-04.35.35:088][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.05.08-04.35.35:111][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.05.08-04.35.35:322][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014541e23830, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2019.05.08-04.35.35:329][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014541e23830, Size=72
-[2019.05.08-04.35.35:329][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014541dce3e0, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
-[2019.05.08-04.35.35:335][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014543a3f6f0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2019.05.08-04.35.35:428][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.418987ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2019.05.08-04.35.35:435][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.733867ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
-[2019.05.08-04.35.35:532][  0]SourceControl: Source control is disabled
-[2019.05.08-04.35.35:532][  0]SourceControl: Source control is disabled
-[2019.05.08-04.35.35:544][  0]SourceControl: Source control is disabled
-[2019.05.08-04.35.35:555][  0]SourceControl: Source control is disabled
-[2019.05.08-04.35.35:900][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.05.08-04.35.36:030][  0]LogOcInput: OculusInput pre-init called
-[2019.05.08-04.35.36:107][  0]LogEngine: Initializing Engine...
-[2019.05.08-04.35.36:108][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.05.08-04.35.36:109][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.05.08-04.35.36:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.05.08-04.35.36:280][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.05.08-04.35.36:305][  0]LogInit: XAudio2 using 'Speaker (Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.08-04.35.36:469][  0]LogInit: FAudioDevice initialized.
-[2019.05.08-04.35.36:599][  0]LogDerivedDataCache: Saved boot cache 0.13s 76MB D:/Users/Sunny.Pee7365/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.05.08-04.35.36:613][  0]LogInit: Texture streaming: Enabled
-[2019.05.08-04.35.36:623][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.05.08-04.35.36:632][  0]LogInit: Transaction tracking system initialized
-[2019.05.08-04.35.36:645][  0]BlueprintLog: New page: Editor Load
-[2019.05.08-04.35.36:725][  0]LocalizationService: Localization service is disabled
-[2019.05.08-04.35.36:792][  0]LogConsoleResponse: Display: 
-[2019.05.08-04.35.36:917][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.05.08-04.35.36:917][  0]LogCook: Display: Mobile HDR setting 1
-[2019.05.08-04.35.36:917][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.05.08-04.35.36:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.05.08-04.35.36:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.05.08-04.35.37:048][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/' took 0.01s
-[2019.05.08-04.35.37:156][  0]SourceControl: Source control is disabled
-[2019.05.08-04.35.37:156][  0]LightingResults: New page: Lighting Build
-[2019.05.08-04.35.37:159][  0]MapCheck: New page: Map Check
-[2019.05.08-04.35.37:159][  0]LightingResults: New page: Lighting Build
-[2019.05.08-04.35.37:167][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014541dce3e0, Size=72
-[2019.05.08-04.35.37:319][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014527d2db40, Size=92, Default__Ultra_Dynamic_Sky_BP_C Function /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP.Ultra_Dynamic_Sky_BP_C:ExecuteUbergraph_Ultra_Dynamic_Sky_BP
-[2019.05.08-04.35.37:356][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014527d2db40, Size=92
-[2019.05.08-04.35.37:356][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014527d2db40, Size=92, Default__Ultra_Dynamic_Sky_BP_C Function /Engine/Transient.REINST_Ultra_Dynamic_Sky_BP_C_6:ExecuteUbergraph_Ultra_Dynamic_Sky_BP
-[2019.05.08-04.35.37:385][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001452c5279a0, Size=92, Default__Ultra_Dynamic_Sky_BP_C Function /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP.Ultra_Dynamic_Sky_BP_C:ExecuteUbergraph_Ultra_Dynamic_Sky_BP
-[2019.05.08-04.35.37:409][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001452f961080, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-04.35.37:412][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001452f961080, Size=80
-[2019.05.08-04.35.37:412][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000145287b3100, Size=80, Default__FirstPersonExampleMap_C Function /Engine/Transient.REINST_FirstPersonExampleMap_C_12:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-04.35.37:414][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000145287b32e0, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-04.35.37:775][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.05.08-04.35.37:793][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.05.08-04.35.37:806][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014527d2db40, Size=92
-[2019.05.08-04.35.37:806][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000145287b3100, Size=80
-[2019.05.08-04.35.37:807][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.05.08-04.35.37:852][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.476ms to complete.
-[2019.05.08-04.35.37:852][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.696
-[2019.05.08-04.35.37:986][  0]LogCollectionManager: Loaded 0 collections in 0.000869 seconds
-[2019.05.08-04.35.38:029][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Collections/' took 0.01s
-[2019.05.08-04.35.38:029][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Developers/SunnyPee7365/Collections/' took 0.01s
-[2019.05.08-04.35.38:029][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Collections/' took 0.01s
-[2019.05.08-04.35.38:029][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.05.08-04.35.38:037][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2456 classes and 560 folders.
-[2019.05.08-04.35.38:041][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.05.08-04.35.38:073][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.05.08-04.35.38:077][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.05.08-04.35.38:093][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.05.08-04.35.38:095][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.05.08-04.35.38:099][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.05.08-04.35.38:177][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
-[2019.05.08-04.35.38:219][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.05.08-04.35.38:281][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.05.08-04.35.38:281][  0]LogLoad: (Engine Initialization) Total time: 9.84 seconds
-[2019.05.08-04.35.38:281][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.05.08-04.35.38:291][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.05.08-04.35.38:309][  0]LogAssetRegistry: Asset discovery search completed in 5.2609 seconds
-[2019.05.08-04.35.38:310][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.05.08-04.35.38:310][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
-[2019.05.08-04.35.38:311][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.05.08-04.41.50:670][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.47.03:547][201]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.05.08-04.47.03:767][201]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2019.05.08-04.47.03:987][201]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014535b449e8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2019.05.08-04.47.03:988][201]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014535b449e0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2019.05.08-04.47.04:328][201]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.05.08-04.47.11:960][ 90]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.05.08-04.47.26:968][883]BlueprintLog: New page: Compile Checkpoint
-[2019.05.08-04.47.29:207][111]LogSavePackage: Save=15.61ms
-[2019.05.08-04.47.29:207][111]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/CheckpointE5BCAC3C4AABCD69F50E1AADD6B3B8BA.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
-[2019.05.08-04.47.29:210][111]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
-[2019.05.08-04.47.34:616][751]BlueprintLog: New page: Compile Checkpoint
-[2019.05.08-04.47.45:698][ 41]BlueprintLog: New page: Compile Checkpoint
-[2019.05.08-04.47.46:396][ 86]LogSavePackage: Save=16.33ms
-[2019.05.08-04.47.46:396][ 86]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint796202DF42E0ECB4D0B233B3F26433BC.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
-[2019.05.08-04.47.46:400][ 86]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
-[2019.05.08-04.48.11:494][ 76]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000145287b32e0, Size=80
-[2019.05.08-04.48.11:494][ 76]LogUObjectGlobals: Created PersistentFrame Addr=0x000001455deaaed0, Size=80, Default__FirstPersonExampleMap_C Function /Engine/Transient.REINST_FirstPersonExampleMap_C_50:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-04.48.11:497][ 76]LogUObjectGlobals: Created PersistentFrame Addr=0x000001452cdf48b0, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-04.48.11:624][ 76]LogSavePackage: Save=161.54ms
-[2019.05.08-04.48.11:624][ 76]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/FirstPersonExampleMap_Auto1513FFD4C4378C472F9D60CAE7441FF5B.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
-[2019.05.08-04.48.11:626][ 76]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap
-[2019.05.08-04.48.11:628][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.197
-[2019.05.08-04.48.11:628][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.197
-[2019.05.08-04.52.37:765][991]LogRenderer: Reallocating scene render targets to support 1208x912 Format 10 NumSamples 1 (Frame:1).
-[2019.05.08-04.52.42:433][522]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.05.08-04.52.42:901][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.55.10:061][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.55.21:000][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.08-04.55.34:334][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.08-04.55.53:199][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.55.53:288][203]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
-[2019.05.08-04.55.53:288][203]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
-[2019.05.08-04.55.53:289][203]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
-[2019.05.08-04.56.07:220][760]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.56.40:000][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.57.19:983][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.57.24:199][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.57.41:152][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.57.56:499][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.58.00:453][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.58.14:524][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.58.18:900][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-04.58.54:661][515]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.08-04.58.54:704][515]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001455deaaed0, Size=80
-[2019.05.08-04.58.54:734][515]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001452cdf48b0, Size=80
-[2019.05.08-04.58.54:734][515]LogUObjectGlobals: Created PersistentFrame Addr=0x000001455deab740, Size=80, Default__FirstPersonExampleMap_C Function /Engine/Transient.REINST_FirstPersonExampleMap_C_60:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-04.58.54:736][515]LogUObjectGlobals: Created PersistentFrame Addr=0x000001452cdf7650, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-04.58.54:863][515]LogSavePackage: Save=140.43ms
-[2019.05.08-04.58.54:863][515]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/FirstPersonExampleMap_Auto2DDD841B6458C115D1C9390B5232741CA.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap'
-[2019.05.08-04.58.54:866][515]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap
-[2019.05.08-04.58.54:869][515]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.188
-[2019.05.08-04.58.54:869][515]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.188
-[2019.05.08-04.58.54:871][515]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Checkpoints/Checkpoint] ([1] browsable assets)...
-[2019.05.08-04.58.54:888][515]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Checkpoints/Checkpoint.Checkpoint]
-[2019.05.08-04.58.54:888][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/Checkpoints/Checkpoint]
-[2019.05.08-04.58.54:912][515]LogSavePackage: Save=15.97ms
-[2019.05.08-04.58.54:912][515]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint_Auto2E9059C094973E2162A56AC828BDD023C.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/Checkpoints/Checkpoint_Auto2.uasset'
-[2019.05.08-04.58.54:913][515]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/Checkpoints/Checkpoint_Auto2.uasset
-[2019.05.08-04.58.54:913][515]LogFileHelpers: Auto-saving content packages took 0.043
-[2019.05.08-05.00.09:370][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.00.23:977][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.00.26:598][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.00.37:353][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.00.40:509][964]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.00.50:328][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.01.03:076][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.01.05:383][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.01.12:741][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.02.11:216][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.02.33:574][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.03.02:845][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.03.05:559][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.03.05:616][949]BlueprintLog: New page: Compile Checkpoint
-[2019.05.08-05.03.05:898][949]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001455deab740, Size=80
-[2019.05.08-05.03.06:341][968]LogSavePackage: Save=16.48ms
-[2019.05.08-05.03.06:341][968]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint3CC573324817B77B73AC1CBE03EAF346.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
-[2019.05.08-05.03.06:346][968]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
-[2019.05.08-05.05.21:591][369]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
-[2019.05.08-05.05.21:591][369]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
-[2019.05.08-05.05.21:591][369]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
-[2019.05.08-05.05.24:182][662]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
-[2019.05.08-05.05.24:182][662]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
-[2019.05.08-05.05.24:182][662]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
-[2019.05.08-05.05.43:344][905]BlueprintLog: New page: Compile Checkpoint
-[2019.05.08-05.05.50:596][711]BlueprintLog: New page: Compile Checkpoint
-[2019.05.08-05.05.51:357][752]LogSavePackage: Save=17.01ms
-[2019.05.08-05.05.51:357][752]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint64A546AA4160519423DD718B37F06117.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
-[2019.05.08-05.05.51:360][752]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
-[2019.05.08-05.05.58:549][600]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
-[2019.05.08-05.05.58:549][600]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
-[2019.05.08-05.05.58:549][600]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
-[2019.05.08-05.05.59:668][729]BlueprintLog: New page: Compile Checkpoint
-[2019.05.08-05.06.00:502][767]LogSavePackage: Save=18.17ms
-[2019.05.08-05.06.00:502][767]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint74CD37E24798DC4A7C786A8C1FED2503.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
-[2019.05.08-05.06.00:505][767]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
-[2019.05.08-05.06.08:480][703]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
-[2019.05.08-05.06.08:480][703]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
-[2019.05.08-05.06.08:481][703]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
-[2019.05.08-05.06.09:649][838]BlueprintLog: New page: Compile Checkpoint
-[2019.05.08-05.06.10:324][868]LogSavePackage: Save=16.32ms
-[2019.05.08-05.06.10:324][868]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint324329474A592FCEFA45ABA52BE4CB71.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
-[2019.05.08-05.06.10:328][868]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
-[2019.05.08-05.07.51:048][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.08.00:930][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.08.10:227][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.08.13:454][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.08.16:301][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.08.24:798][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.08.49:681][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.09.33:047][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.09.53:047][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.09.56:629][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.10.04:349][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.10.06:779][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.10.12:467][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.10.50:403][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.10.59:130][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.11.02:470][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.11.09:869][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.11.12:236][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.11.19:252][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.11.21:842][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.11.30:545][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.11.34:273][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.11.43:058][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.11.43:141][510]BlueprintLog: New page: Compile Checkpoint
-[2019.05.08-05.11.44:045][554]LogSavePackage: Save=16.06ms
-[2019.05.08-05.11.44:045][554]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint0C4DFD944CDDA253A5D3C892D8396B65.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
-[2019.05.08-05.11.44:049][554]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
-[2019.05.08-05.12.29:366][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-05.13.03:774][ 26]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001452cdf7650, Size=80
-[2019.05.08-05.13.03:774][ 26]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014528f14f90, Size=80, Default__FirstPersonExampleMap_C Function /Engine/Transient.REINST_FirstPersonExampleMap_C_96:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-05.13.03:776][ 26]LogUObjectGlobals: Created PersistentFrame Addr=0x000001453de068e0, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-05.13.03:903][ 26]LogSavePackage: Save=140.51ms
-[2019.05.08-05.13.03:903][ 26]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/FirstPersonExampleMap_Auto3FD8D009E4CAF0BD40F4A9CB0301ED7B4.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto3.umap'
-[2019.05.08-05.13.03:906][ 26]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto3.umap
-[2019.05.08-05.13.03:908][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.179
-[2019.05.08-05.13.03:908][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.179
-[2019.05.08-05.25.57:977][ 84]LogSlate: Window 'Checkpoint' being destroyed
-[2019.05.08-05.25.57:981][ 84]LogSlate: Window 'Checkpoint' being destroyed
-[2019.05.08-05.25.59:823][293]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014528f14f90, Size=80
-[2019.05.08-05.25.59:846][293]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001453de068e0, Size=80
-[2019.05.08-05.25.59:846][293]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014575800590, Size=80, Default__FirstPersonExampleMap_C Function /Engine/Transient.REINST_FirstPersonExampleMap_C_100:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-05.25.59:848][293]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014575d9afc0, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
-[2019.05.08-05.25.59:972][293]LogSavePackage: Save=137.33ms
-[2019.05.08-05.25.59:972][293]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/FirstPersonExampleMap711F08B14E111FADE6F6E9B61B4D6DDF.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2019.05.08-05.25.59:977][293]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2019.05.08-05.26.00:993][293]LogSavePackage: Save=974.66ms
-[2019.05.08-05.26.00:993][293]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/FirstPersonExampleMap_BuiltData1993B0DB4F2FC451CA9700AB110C5AEA.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.05.08-05.26.00:996][293]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2019.05.08-05.26.01:900][382]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014575800590, Size=80
-[2019.05.08-05.26.01:955][382]LogSlate: Window 'Scorching_Cold_Mini - Unreal Editor' being destroyed
-[2019.05.08-05.26.01:956][382]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.05.08-05.26.02:116][383]Cmd: QUIT_EDITOR
-[2019.05.08-05.26.02:149][383]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.05.08-05.26.02:150][383]LogExit: Preparing to exit.
-[2019.05.08-05.26.02:617][383]LogDirectoryWatcher: A directory notification for 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/' was aborted.
-[2019.05.08-05.26.02:639][383]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014543a3f6f0, Size=72
-[2019.05.08-05.26.02:642][383]LogExit: Editor shut down
-[2019.05.08-05.26.02:645][383]LogExit: Transaction tracking system shut down
-[2019.05.08-05.26.02:645][383]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001452c5279a0, Size=92
-[2019.05.08-05.26.02:647][383]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014535b449e8, Size=4
-[2019.05.08-05.26.02:647][383]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014535b449e0, Size=4
-[2019.05.08-05.26.02:648][383]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014575d9afc0, Size=80
-[2019.05.08-05.26.02:805][383]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2019.05.08-05.26.02:805][383]LogDirectoryWatcher: A directory notification for '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/' was aborted.
-[2019.05.08-05.26.02:805][383]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2019.05.08-05.26.02:805][383]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2019.05.08-05.26.02:805][383]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2019.05.08-05.26.02:805][383]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2019.05.08-05.26.02:805][383]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2019.05.08-05.26.02:805][383]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2019.05.08-05.26.02:880][383]LogExit: Object subsystem successfully closed.
-[2019.05.08-05.26.02:891][383]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.05.08-05.26.02:894][383]LogD3D11RHI: Shutdown
-[2019.05.08-05.26.02:894][383]LogD3D11RHI: CleanupD3DDevice
-[2019.05.08-05.26.02:896][383]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.05.08-05.26.02:905][383]LogModuleManager: Shutting down and abandoning module BlueprintGraph (578)
-[2019.05.08-05.26.02:905][383]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
-[2019.05.08-05.26.02:905][383]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
-[2019.05.08-05.26.02:905][383]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2019.05.08-05.26.02:905][383]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2019.05.08-05.26.02:905][383]LogDirectoryWatcher: A directory notification for 'D:/UE_4.19/FeaturePacks/' was aborted.
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2019.05.08-05.26.02:921][383]LogDirectoryWatcher: A directory notification for 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Collections/' was aborted.
-[2019.05.08-05.26.02:921][383]LogDirectoryWatcher: A directory notification for 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Developers/SunnyPee7365/Collections/' was aborted.
-[2019.05.08-05.26.02:921][383]LogDirectoryWatcher: A directory notification for 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Collections/' was aborted.
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2019.05.08-05.26.02:921][383]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2019.05.08-05.26.02:922][383]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2019.05.08-05.26.03:358][383]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2019.05.08-05.26.03:359][383]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2019.05.08-05.26.03:414][383]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2019.05.08-05.26.03:418][383]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2019.05.08-05.26.03:418][383]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2019.05.08-05.26.03:419][383]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
-[2019.05.08-05.26.03:547][383]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
-[2019.05.08-05.26.03:547][383]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
-[2019.05.08-05.26.03:547][383]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
-[2019.05.08-05.26.03:547][383]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
-[2019.05.08-05.26.03:547][383]LogModuleManager: Shutting down and abandoning module OculusInput (366)
-[2019.05.08-05.26.03:547][383]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module CableComponent (360)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
-[2019.05.08-05.26.03:548][383]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
-[2019.05.08-05.26.03:550][383]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
-[2019.05.08-05.26.03:550][383]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
-[2019.05.08-05.26.03:550][383]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module SourceControl (305)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module Scorching_Cold_Mini (290)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2019.05.08-05.26.03:551][383]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2019.05.08-05.26.03:652][383]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2019.05.08-05.26.03:753][383]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2019.05.08-05.26.03:754][383]LogDirectoryWatcher: A directory notification for 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Binaries/Win64' was aborted.
-[2019.05.08-05.26.03:754][383]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2019.05.08-05.26.03:755][383]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2019.05.08-05.26.03:755][383]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2019.05.08-05.26.03:755][383]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2019.05.08-05.26.03:755][383]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2019.05.08-05.26.04:446][383]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2019.05.08-05.26.04:446][383]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2019.05.08-05.26.04:446][383]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2019.05.08-05.26.04:447][383]LogModuleManager: Shutting down and abandoning module Media (233)
-[2019.05.08-05.26.04:453][383]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2019.05.08-05.26.04:454][383]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module Core (178)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2019.05.08-05.26.04:455][383]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2019.05.08-05.26.04:456][383]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2019.05.08-05.26.04:493][383]LogDerivedDataCache: Shutdown
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2019.05.08-05.26.04:493][383]LogXGEController: Cleaning working directory: D:/Users/Sunny.Pee7365/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2019.05.08-05.26.04:493][383]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2019.05.08-05.26.04:494][383]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2019.05.08-05.26.04:494][383]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.05.08-05.26.04:494][383]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC852D70A-46B1-F825-2620-3F9E8942FAFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=157ac1a04c0369873949c2bd52c011e0%7C082fe10d00c945cd8091685130b0482e%7C6cb949aa-a9b5-4f6e-add5-0421e50e0b71&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.05.08-05.26.04:528][383]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2019.05.08-05.26.04:530][383]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.05.08-05.26.04:530][383]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.05.08-05.26.04:530][383]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.05.08-05.26.04:530][383]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.05.08-05.26.04:530][383]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.05.08-05.26.04:530][383]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.05.08-05.26.04:530][383]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.05.08-05.26.04:531][383]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.05.08-05.26.04:537][383]LogExit: Exiting.
-[2019.05.08-05.26.04:547][383]Log file closed, 05/08/19 17:26:04
+[2019.05.14-21.21.40:565][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.14-21.21.40:565][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.14-21.21.40:583][  0]LogInit: Computer: 1816C004
+[2019.05.14-21.21.40:583][  0]LogInit: User: SunnyPee7365
+[2019.05.14-21.21.40:583][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.14-21.21.40:583][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2019.05.14-21.21.40:583][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.05.14-21.21.40:583][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.14-21.21.40:583][  0]LogMemory: Process Physical Memory: 276.72 MB used, 276.72 MB peak
+[2019.05.14-21.21.40:583][  0]LogMemory: Process Virtual Memory: 268.63 MB used, 268.63 MB peak
+[2019.05.14-21.21.40:583][  0]LogMemory: Physical Memory: 7602.45 MB used,  25044.76 MB free, 32647.21 MB total
+[2019.05.14-21.21.40:583][  0]LogMemory: Virtual Memory: 4837.86 MB used,  25044.76 MB free, 134217728.00 MB total
+[2019.05.14-21.21.40:816][  0]LogInit: Using OS detected language (en-US).
+[2019.05.14-21.21.40:817][  0]LogInit: Using OS detected locale (en-NZ).
+[2019.05.14-21.21.40:848][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.14-21.21.41:201][  0]LogStreaming: Display: Took  0.384s to EndInitTextLocalization.
+[2019.05.14-21.21.41:201][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.14-21.21.41:276][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.14-21.21.41:276][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.14-21.21.42:479][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.14-21.21.42:533][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.05.14-21.21.42:533][  0]LogD3D11RHI:       8079/0/16323 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.14-21.21.42:547][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.05.14-21.21.42:547][  0]LogD3D11RHI:       128/0/16323 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.05.14-21.21.42:548][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.14-21.21.42:548][  0]LogD3D11RHI:       0/0/16323 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.14-21.21.42:548][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.14-21.21.42:554][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.14-21.21.42:554][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.14-21.21.42:554][  0]LogWindows: EnumDisplayDevices:
+[2019.05.14-21.21.42:555][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.05.14-21.21.42:555][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.05.14-21.21.42:555][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.05.14-21.21.42:555][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.05.14-21.21.42:555][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.14-21.21.42:555][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.14-21.21.42:555][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.14-21.21.42:556][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2019.05.14-21.21.42:556][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.05.14-21.21.42:556][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.05.14-21.21.42:556][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.05.14-21.21.42:556][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.05.14-21.21.42:556][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.05.14-21.21.42:592][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.05.14-21.21.42:592][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.05.14-21.21.42:592][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.14-21.21.42:609][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.14-21.21.42:694][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Intermediate/Shaders/WorkingDirectory/24512/).
+[2019.05.14-21.21.42:694][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/Sunny.Pee7365/AppData/Local/Temp/UnrealShaderWorkingDir/35B1B9E143B23577B5DDD98BB098CA57/'.
+[2019.05.14-21.21.43:231][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.14-21.21.43:241][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.14-21.21.43:251][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.14-21.21.43:261][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.14-21.21.43:274][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.14-21.21.43:284][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.14-21.21.43:294][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.14-21.21.43:304][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.14-21.21.43:308][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.14-21.21.43:317][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.05.14-21.21.43:326][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.05.14-21.21.43:335][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.05.14-21.21.43:344][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.05.14-21.21.43:353][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.05.14-21.21.43:362][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.05.14-21.21.43:380][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.05.14-21.21.43:380][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.05.14-21.21.43:392][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.14-21.21.43:393][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.14-21.21.43:462][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.14-21.21.43:471][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.14-21.21.43:480][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.14-21.21.43:489][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.14-21.21.43:499][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.14-21.21.43:511][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.14-21.21.43:512][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.14-21.21.43:996][  0]LogXGEController: Cleaning working directory: D:/Users/Sunny.Pee7365/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.14-21.21.43:996][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.14-21.21.43:997][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.14-21.21.43:997][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.14-21.21.45:085][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.14-21.21.45:154][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB D:/Users/Sunny.Pee7365/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.05.14-21.21.45:154][  0]LogDerivedDataCache: Display: Loaded Boot cache: D:/Users/Sunny.Pee7365/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.05.14-21.21.45:154][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.14-21.21.45:154][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.14-21.21.45:154][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.14-21.21.45:154][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.14-21.21.45:169][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.14-21.21.45:182][  0]LogDerivedDataCache: Using Local data cache path D:/Users/Sunny.Pee7365/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.14-21.21.45:182][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.14-21.21.45:182][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.14-21.21.45:191][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.14-21.21.45:191][  0]LogSlate: Using Freetype 2.6.0
+[2019.05.14-21.21.45:199][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.14-21.21.45:199][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.14-21.21.48:802][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2019.05.14-21.21.49:034][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.14-21.21.49:316][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.14-21.21.49:317][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.14-21.21.49:317][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.14-21.21.49:317][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.14-21.21.49:317][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.05.14-21.21.49:317][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.05.14-21.21.49:355][  0]LogNetVersion: Scorching_Cold_Mini , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 451170659)
+[2019.05.14-21.21.50:080][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.092221 seconds
+[2019.05.14-21.21.50:084][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.05.14-21.21.50:084][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.05.14-21.21.50:084][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.14-21.21.52:825][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.14-21.21.52:847][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.14-21.21.53:081][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b56c59b7e0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2019.05.14-21.21.53:088][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b56c59b7e0, Size=72
+[2019.05.14-21.21.53:088][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b56e1da3e0, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
+[2019.05.14-21.21.53:094][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b56e16b6a0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2019.05.14-21.21.53:279][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.581689ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2019.05.14-21.21.53:293][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.400498ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2019.05.14-21.21.53:409][  0]SourceControl: Source control is disabled
+[2019.05.14-21.21.53:409][  0]SourceControl: Source control is disabled
+[2019.05.14-21.21.53:421][  0]SourceControl: Source control is disabled
+[2019.05.14-21.21.53:432][  0]SourceControl: Source control is disabled
+[2019.05.14-21.21.53:803][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.14-21.21.53:930][  0]LogOcInput: OculusInput pre-init called
+[2019.05.14-21.21.54:022][  0]LogEngine: Initializing Engine...
+[2019.05.14-21.21.54:023][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.14-21.21.54:024][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.14-21.21.54:024][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.14-21.21.54:305][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.14-21.21.54:353][  0]LogInit: XAudio2 using 'Speaker (Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.14-21.21.54:579][  0]LogInit: FAudioDevice initialized.
+[2019.05.14-21.21.54:715][  0]LogDerivedDataCache: Saved boot cache 0.14s 76MB D:/Users/Sunny.Pee7365/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.05.14-21.21.54:729][  0]LogInit: Texture streaming: Enabled
+[2019.05.14-21.21.54:739][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.14-21.21.54:747][  0]LogInit: Transaction tracking system initialized
+[2019.05.14-21.21.54:761][  0]BlueprintLog: New page: Editor Load
+[2019.05.14-21.21.54:837][  0]LocalizationService: Localization service is disabled
+[2019.05.14-21.21.54:913][  0]LogConsoleResponse: Display: 
+[2019.05.14-21.21.55:200][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.14-21.21.55:200][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.14-21.21.55:200][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.14-21.21.55:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.14-21.21.55:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.14-21.21.55:482][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/' took 0.02s
+[2019.05.14-21.21.55:483][  0]SourceControl: Source control is disabled
+[2019.05.14-21.21.55:483][  0]LightingResults: New page: Lighting Build
+[2019.05.14-21.21.55:484][  0]MapCheck: New page: Map Check
+[2019.05.14-21.21.55:484][  0]LightingResults: New page: Lighting Build
+[2019.05.14-21.21.55:493][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b56e1da3e0, Size=72
+[2019.05.14-21.21.55:777][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b55182dba0, Size=92, Default__Ultra_Dynamic_Sky_BP_C Function /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP.Ultra_Dynamic_Sky_BP_C:ExecuteUbergraph_Ultra_Dynamic_Sky_BP
+[2019.05.14-21.21.55:813][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b55182dba0, Size=92
+[2019.05.14-21.21.55:813][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b55182dba0, Size=92, Default__Ultra_Dynamic_Sky_BP_C Function /Engine/Transient.REINST_Ultra_Dynamic_Sky_BP_C_6:ExecuteUbergraph_Ultra_Dynamic_Sky_BP
+[2019.05.14-21.21.55:842][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5583eba00, Size=92, Default__Ultra_Dynamic_Sky_BP_C Function /Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP.Ultra_Dynamic_Sky_BP_C:ExecuteUbergraph_Ultra_Dynamic_Sky_BP
+[2019.05.14-21.21.55:889][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b550e25620, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
+[2019.05.14-21.21.55:893][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b550e25620, Size=80
+[2019.05.14-21.21.55:893][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b55e67e160, Size=80, Default__FirstPersonExampleMap_C Function /Engine/Transient.REINST_FirstPersonExampleMap_C_12:ExecuteUbergraph_FirstPersonExampleMap
+[2019.05.14-21.21.55:896][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b55e67f3d0, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
+[2019.05.14-21.21.56:354][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.05.14-21.21.56:463][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.14-21.21.56:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b55182dba0, Size=92
+[2019.05.14-21.21.56:483][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b55e67e160, Size=80
+[2019.05.14-21.21.56:484][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.14-21.21.56:528][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.602ms to complete.
+[2019.05.14-21.21.56:528][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.045
+[2019.05.14-21.21.56:670][  0]LogCollectionManager: Loaded 0 collections in 0.000843 seconds
+[2019.05.14-21.21.56:714][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Collections/' took 0.01s
+[2019.05.14-21.21.56:714][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Developers/SunnyPee7365/Collections/' took 0.01s
+[2019.05.14-21.21.56:714][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Collections/' took 0.01s
+[2019.05.14-21.21.56:714][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.05.14-21.21.56:722][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2456 classes and 560 folders.
+[2019.05.14-21.21.56:726][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.14-21.21.56:915][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.05.14-21.21.56:918][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.05.14-21.21.56:940][  0]LogSlate: Took 0.003574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.14-21.21.56:944][  0]LogSlate: Took 0.002751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.14-21.21.56:950][  0]LogSlate: Took 0.002924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.14-21.21.57:063][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2019.05.14-21.21.57:110][  0]LogSlate: Took 0.002879 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.14-21.21.57:219][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.05.14-21.21.57:219][  0]LogLoad: (Engine Initialization) Total time: 21.81 seconds
+[2019.05.14-21.21.57:219][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.14-21.21.57:245][  0]LogAssetRegistry: Asset discovery search completed in 8.4657 seconds
+[2019.05.14-21.21.57:246][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.14-21.21.57:246][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2019.05.14-21.21.57:246][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.14-21.23.28:446][624]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.14-21.25.35:168][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-21.25.35:197][695]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.14-21.25.35:447][695]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.05.14-21.25.35:677][695]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b50b624940, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.05.14-21.25.35:677][695]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b50b624938, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.05.14-21.25.36:048][695]LogSlate: Took 0.002892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.14-21.25.43:456][560]LogSlate: Window 'Checkpoint' being destroyed
+[2019.05.14-21.25.43:460][560]LogSlate: Window 'Checkpoint' being destroyed
+[2019.05.14-21.26.56:903][772]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.05.14-21.28.01:300][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-21.28.02:892][646]LogRenderer: Reallocating scene render targets to support 1208x912 Format 10 NumSamples 1 (Frame:1).
+[2019.05.14-21.28.16:571][272]LogSlate: Took 0.003244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.05.14-21.28.52:523][563]BlueprintLog: New page: Compile CheckpointControl
+[2019.05.14-21.30.12:948][181]LogSlate: Window 'CheckpointControl*' being destroyed
+[2019.05.14-21.30.12:953][181]LogSlate: Window 'CheckpointControl*' being destroyed
+[2019.05.14-21.30.26:809][795]BlueprintLog: New page: Compile Checkpoint
+[2019.05.14-21.30.29:870][121]LogSavePackage: Save=16.62ms
+[2019.05.14-21.30.29:870][121]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint8D4A9A8B4942E06177E180AAC0535F4B.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
+[2019.05.14-21.30.29:876][121]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
+[2019.05.14-21.30.33:598][561]BlueprintLog: New page: Compile Checkpoint
+[2019.05.14-21.30.34:242][599]LogSavePackage: Save=16.39ms
+[2019.05.14-21.30.34:242][599]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint7C5F1DC0477985C51A0FA1B5C3FBFDDB.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
+[2019.05.14-21.30.34:245][599]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
+[2019.05.14-21.31.08:829][740]BlueprintLog: New page: Compile Checkpoint
+[2019.05.14-21.31.10:425][891]LogSavePackage: Save=16.85ms
+[2019.05.14-21.31.10:425][891]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint5AC19E1F43EF0165A3DA84970378BE00.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
+[2019.05.14-21.31.10:429][891]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
+[2019.05.14-21.31.22:919][345]LogSavePackage: Save=9.73ms
+[2019.05.14-21.31.22:919][345]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/CheckpointB53CCCB0476760976F53AD897055C526.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
+[2019.05.14-21.31.22:920][345]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
+[2019.05.14-21.31.24:618][547]LogSlate: Window 'Checkpoint' being destroyed
+[2019.05.14-21.31.24:622][547]LogSlate: Window 'Checkpoint' being destroyed
+[2019.05.14-21.31.38:908][215]LogSlate: Took 0.003005 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.14-21.33.30:183][ 50]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b55e67f3d0, Size=80
+[2019.05.14-21.33.30:183][ 50]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5199d2ac0, Size=80, Default__FirstPersonExampleMap_C Function /Engine/Transient.REINST_FirstPersonExampleMap_C_62:ExecuteUbergraph_FirstPersonExampleMap
+[2019.05.14-21.33.30:185][ 50]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5199d2f20, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
+[2019.05.14-21.33.30:310][ 50]LogSavePackage: Save=146.15ms
+[2019.05.14-21.33.30:310][ 50]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/FirstPersonExampleMap_Auto14ED6557040D8222041876DA25EFA4E4F.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.05.14-21.33.30:312][ 50]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap
+[2019.05.14-21.33.30:314][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.181
+[2019.05.14-21.33.30:314][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.181
+[2019.05.14-21.33.30:317][ 50]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Checkpoints/Checkpoint] ([1] browsable assets)...
+[2019.05.14-21.33.30:335][ 50]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Checkpoints/Checkpoint.Checkpoint]
+[2019.05.14-21.33.30:335][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/Checkpoints/Checkpoint]
+[2019.05.14-21.33.30:354][ 50]LogSavePackage: Save=15.71ms
+[2019.05.14-21.33.30:354][ 50]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint_Auto12A0D66A04C6BF583A8CF049B37B414F5.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/Checkpoints/Checkpoint_Auto1.uasset'
+[2019.05.14-21.33.30:356][ 50]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/Checkpoints/Checkpoint_Auto1.uasset
+[2019.05.14-21.33.30:356][ 50]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Checkpoints/CheckpointControl] ([1] browsable assets)...
+[2019.05.14-21.33.30:356][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/Checkpoints/CheckpointControl]
+[2019.05.14-21.33.30:366][ 50]LogSavePackage: Save=7.63ms
+[2019.05.14-21.33.30:366][ 50]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/CheckpointControl_Auto18E90B64C470D500812A02AA74AFA9F58.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/Checkpoints/CheckpointControl_Auto1.uasset'
+[2019.05.14-21.33.30:367][ 50]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Autosaves/Game/Checkpoints/CheckpointControl_Auto1.uasset
+[2019.05.14-21.33.30:367][ 50]LogFileHelpers: Auto-saving content packages took 0.051
+[2019.05.14-21.33.56:116][576]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.14-21.34.42:072][ 72]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.14-21.34.42:086][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2019.05.14-21.34.42:086][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2019.05.14-21.34.42:087][ 72]LoadErrors: Error: /Game/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2019.05.14-21.34.42:087][ 72]LoadErrors: Error: /Game/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2019.05.14-21.34.42:087][ 72]LoadErrors: Error: /Game/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2019.05.14-21.34.42:087][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2019.05.14-21.34.42:087][ 72]LoadErrors: Error: /Game/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2019.05.14-21.34.42:088][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2019.05.14-21.34.42:088][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2019.05.14-21.34.42:088][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2019.05.14-21.34.42:088][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2019.05.14-21.34.42:090][ 72]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5a73e9400, Size=928, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCharacter/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2019.05.14-21.34.42:098][ 72]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5a73e9400, Size=928
+[2019.05.14-21.34.42:098][ 72]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b51967d000, Size=928, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_64:ExecuteUbergraph_ThirdPersonCharacter
+[2019.05.14-21.34.42:105][ 72]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b51967cc00, Size=928, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCharacter/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2019.05.14-21.34.42:108][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2019.05.14-21.34.42:108][ 72]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SK_Mannequin
+[2019.05.14-21.34.42:108][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2019.05.14-21.34.42:108][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset'
+[2019.05.14-21.34.42:108][ 72]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset Referenced by SK_Mannequin
+[2019.05.14-21.34.42:109][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset' while loading NULL.
+[2019.05.14-21.34.42:109][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2019.05.14-21.34.42:109][ 72]LoadErrors: Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by SK_Mannequin
+[2019.05.14-21.34.42:109][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading NULL.
+[2019.05.14-21.34.42:109][ 72]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2019.05.14-21.34.42:109][ 72]LoadErrors: Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo Referenced by SK_Mannequin
+[2019.05.14-21.34.42:109][ 72]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading NULL.
+[2019.05.14-21.34.42:162][ 72]LogSkeletalMesh: Skeletal Mesh found in DDC [6.892660ms] /Game/ThirdPersonCharacter/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2019.05.14-21.34.55:532][670]BlueprintLog: New page: Compile Checkpoint
+[2019.05.14-21.34.55:535][670]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b576feaa90, Size=16, Default__Checkpoint_C Function /Game/Checkpoints/Checkpoint.Checkpoint_C:ExecuteUbergraph_Checkpoint
+[2019.05.14-21.34.55:786][670]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5199d2ac0, Size=80
+[2019.05.14-21.34.55:786][670]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b51967d000, Size=928
+[2019.05.14-21.34.56:228][713]LogSavePackage: Save=16.98ms
+[2019.05.14-21.34.56:228][713]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/CheckpointDE94F27640E88A7F60662FAB0BD8E1BF.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
+[2019.05.14-21.34.56:233][713]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
+[2019.05.14-21.36.42:744][263]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.05.14-21.36.42:763][264]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.05.14-21.36.42:881][272]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2019.05.14-21.36.42:884][272]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.05.14-21.36.42:914][274]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2019.05.14-21.36.42:916][274]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.05.14-21.36.45:645][577]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2019.05.14-21.36.50:117][105]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2019.05.14-21.36.54:581][629]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2019.05.14-21.37.17:030][313]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2019.05.14-21.37.31:195][892]BlueprintLog: New page: Compile Checkpoint
+[2019.05.14-21.37.31:199][892]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b576feaa90, Size=16
+[2019.05.14-21.37.31:199][892]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5ab4df5c0, Size=16, Checkpoint_C_109 Function /Engine/Transient.REINST_Checkpoint_C_72:ExecuteUbergraph_Checkpoint
+[2019.05.14-21.37.31:199][892]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5ab0242f8, Size=24, Default__Checkpoint_C Function /Game/Checkpoints/Checkpoint.Checkpoint_C:ExecuteUbergraph_Checkpoint
+[2019.05.14-21.37.32:169][967]LogSavePackage: Save=17.96ms
+[2019.05.14-21.37.32:169][967]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/Checkpoint3C705CA44618C11BD487968806119776.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset'
+[2019.05.14-21.37.32:173][967]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/Checkpoint.uasset
+[2019.05.14-21.37.38:092][675]LogSlate: Window 'Checkpoint' being destroyed
+[2019.05.14-21.37.38:095][675]LogSlate: Window 'Checkpoint' being destroyed
+[2019.05.14-21.37.42:626][207]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5ab4df5c0, Size=16
+[2019.05.14-21.37.42:641][207]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5199d2f20, Size=80
+[2019.05.14-21.37.42:641][207]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5191fa070, Size=80, Default__FirstPersonExampleMap_C Function /Engine/Transient.REINST_FirstPersonExampleMap_C_76:ExecuteUbergraph_FirstPersonExampleMap
+[2019.05.14-21.37.42:644][207]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5191fa110, Size=80, Default__FirstPersonExampleMap_C Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap
+[2019.05.14-21.37.42:772][207]LogSavePackage: Save=143.73ms
+[2019.05.14-21.37.42:772][207]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/FirstPersonExampleMapEC182D5A4EE347590B0FA98A5360CD63.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.05.14-21.37.42:779][207]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2019.05.14-21.37.43:780][207]LogSavePackage: Save=962.70ms
+[2019.05.14-21.37.43:780][207]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/FirstPersonExampleMap_BuiltDataACDD7A1743EA3048E21CD59DD3D80703.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.05.14-21.37.43:782][207]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2019.05.14-21.37.47:871][674]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5191fa070, Size=80
+[2019.05.14-21.37.47:895][674]LogSavePackage: Save=7.80ms
+[2019.05.14-21.37.47:895][674]LogSavePackage: Moving '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Saved/CheckpointControl7580E2F649BF21A994B59D9C4603BECA.tmp' to '../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/CheckpointControl.uasset'
+[2019.05.14-21.37.47:899][674]LogSavePackage: Display: Finished SavePackage ../../../../Users/Sunny.Pee7365/source/repos/ScorchingNoMoarWarmPuns/Scorching_Cold_Mini/Content/Checkpoints/CheckpointControl.uasset
